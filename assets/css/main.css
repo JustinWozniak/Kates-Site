@@ -396,6 +396,7 @@ h2 {
 
 	h2 {
 		font-size: 2.25em;
+		margin: 27px;
 	}
 
 }
@@ -2461,6 +2462,7 @@ input[type="radio"]:checked+label:before {
 .image img {
 	border-radius: 0.5rem;
 	display: block;
+	margin-top: 0px;
 }
 
 .image.left,
@@ -2806,6 +2808,10 @@ ul.icons.style2.major li:before {
 
 	ul.icons.major {
 		max-width: 100%;
+		margin-bottom: 58px;
+		top: 169px;
+
+		position: relative;
 	}
 
 	ul.icons.major li {
@@ -2895,6 +2901,7 @@ article.special header h6:before {
 	section header p,
 	article header p {
 		font-size: 1em;
+		padding-top: 25px;
 	}
 
 	section header p br,
@@ -3157,7 +3164,7 @@ table.alt tbody tr td {
 }
 
 .wrapper.style2 {
-	background-color: #f7f7f7;
+	background-color: white;
 }
 
 .wrapper.style3 {
@@ -4093,7 +4100,7 @@ body.is-preload #intro .content {
 	width: 75%;
 	height: 139%;
 	padding: -8em;
-	margin: -157px;
+	margin: -180px;
 	margin-bottom: -157px;
 	margin-left: -157px;
 	margin-bottom: -115px;
@@ -4104,17 +4111,26 @@ body.is-preload #intro .content {
 	color: black;
 }
 
+.smallHeader{
+	margin-top:  67px;
+}
 
 .smallImage {
-	width: 130px;
-	height: 100px;
+	width: 76px;
+	height: 63px;
 	text-decoration: none;
 }
 
 .quickBooks {
-	width: 100px;
-	height: 100px;
+	width: 75px;
+	height: 75px;
 	text-decoration: none;
+}
+
+.cpbIcon {
+	width: 179px;
+	height: 82px;
+
 }
 
 
@@ -4130,12 +4146,20 @@ body.is-preload #intro .content {
 	top: 141px;
 }
 
-@media only screen and (min-device-width: 250px) and (max-device-width: 667px) {
+@media only screen and (min-device-width: 0px) and (max-device-width: 1000px) {
 	.headerClass {
 		position: absolute;
 		top: 270px;
 		width: 108%;
 		height: 72px;
+	}
+
+	.katesNameClass	{
+	margin-top: 252px;
+	}
+
+	.image img {
+		padding-top: 0px;
 	}
 
 	.mainLogoImage {
@@ -4146,10 +4170,20 @@ body.is-preload #intro .content {
 		margin-left: 30px;
 	}
 
+	.todaysTech {
+		max-width: 100%;
+		top: 137px;
+		position: relative;
+	}
+
+	.hidden {
+		visibility: hidden;
+	}
+
 	.mainHeader {
 		text-align: center;
 		width: 75%;
-		height: 139%;
+		height: 14%;
 		font-size: 15px;
 		font-weight: bolder;
 		color: black;
@@ -4158,15 +4192,20 @@ body.is-preload #intro .content {
 		position: absolute;
 		z-index: 1;
 		top: 146px;
+		background-color: white;
 	}
 
-	.myButton {
-		top: 277px;
-		left: 4px;
+	.smallHeader {
+		top: 138px;
+		margin-bottom: -45px;
+		position: relative;
 	}
-	.paragraph1	{
+
+
+
+	.paragraph1 {
 		position: absolute;
-		top:10px;
+		top: 10px;
 	}
 
 }
@@ -4198,6 +4237,16 @@ body.is-preload #intro .content {
 	position: relative;
 	right: 1em;
 
+}
+
+
+@media only screen and (min-device-width: 0px) and (max-device-width: 1000px) {
+	.myButton {
+		top: 277px;
+		left: 4px;
+		top: 270px;
+		position: relative;
+	}
 }
 
 .kasClass {
