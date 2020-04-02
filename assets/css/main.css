@@ -4186,7 +4186,7 @@ body.is-preload #intro .content {
 	.mainHeader {
 		text-align: center;
 		width: 75%;
-		height:12%;
+		height: 12%;
 		font-size: 15px;
 		font-weight: bolder;
 		color: black;
@@ -4225,9 +4225,9 @@ body.is-preload #intro .content {
 
 
 @media only screen and (min-device-width: 375px) and (max-device-width: 1000px) {
-.mainLogoImage	{
-	height: 18%;
-}
+	.mainLogoImage {
+		height: 18%;
+	}
 }
 
 .myButton {
@@ -4281,6 +4281,76 @@ body.is-preload #intro .content {
 	}
 }
 
+
+.ipbkc {
+	font-family: "Tahoma", sans-serif;
+	font-weight: 700;
+	color: #990700;
+	font-size: 16.0px;
+	line-height: 21.0px;
+
+}
+
+.resources {
+	padding-top: 5%;
+}
+
+.cpra {
+	font-family: "Calibri", sans-serif;
+	font-weight: 700;
+	color: #000099;
+	font-size: 19.0px;
+	line-height: 21.0px;
+	letter-spacing: 1.00px;
+}
+.quick	{
+	font-family: "Calibri", sans-serif;
+	font-weight: 700;
+	color: #249827;
+	font-size: 19.0px;
+	line-height: 21.0px;
+	letter-spacing: 1.00px;
+}
+
+.tSheet	{
+	font-family: "Calibri", sans-serif;
+font-weight: 700;
+color: #c00000;
+font-size: 19.0px;
+line-height: 21.0px;
+letter-spacing: 1.00px;
+}
+
+.quickcloud	{
+	font-family: "Calibri", sans-serif;
+font-weight: 700;
+color: #0000ff;
+font-size: 19.0px;
+line-height: 21.0px;
+letter-spacing: 1.00px;
+}
+
+.cpbIconclass	{
+	float: left;
+	margin-top: -43px;
+}
+
+.cpra2Icon	{
+	float: left;
+	margin-top: 22px;
+}
+
+.quickBooksIcon	{
+	float: left;
+	margin-top: 6px;
+	width: 170px;
+}
+
+.quickcloudIcon	{
+	float: left;
+	margin-top: 6px;
+	width: 170px;
+}
 
 
 
