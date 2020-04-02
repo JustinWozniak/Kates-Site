@@ -3165,6 +3165,7 @@ table.alt tbody tr td {
 
 .wrapper.style2 {
 	background-color: white;
+
 }
 
 .wrapper.style3 {
@@ -4111,9 +4112,11 @@ body.is-preload #intro .content {
 	color: black;
 }
 
-.smallHeader{
-	margin-top:  67px;
+.smallHeader {
+	margin-top: 67px;
 }
+
+
 
 .smallImage {
 	width: 76px;
@@ -4154,8 +4157,8 @@ body.is-preload #intro .content {
 		height: 72px;
 	}
 
-	.katesNameClass	{
-	margin-top: 252px;
+	.katesNameClass {
+		margin-top: 252px;
 	}
 
 	.image img {
@@ -4164,10 +4167,10 @@ body.is-preload #intro .content {
 
 	.mainLogoImage {
 		width: 59%;
-		height: 127px;
+		height: 20%;
 		position: relative;
 		top: 315px;
-		margin-left: 30px;
+		margin-left: 11%;
 	}
 
 	.todaysTech {
@@ -4183,7 +4186,7 @@ body.is-preload #intro .content {
 	.mainHeader {
 		text-align: center;
 		width: 75%;
-		height: 14%;
+		height:12%;
 		font-size: 15px;
 		font-weight: bolder;
 		color: black;
@@ -4217,7 +4220,14 @@ body.is-preload #intro .content {
 .mainLogoImage {
 	position: absolute;
 	left: 41px;
-	top: 33px;
+	top: 12px;
+}
+
+
+@media only screen and (min-device-width: 375px) and (max-device-width: 1000px) {
+.mainLogoImage	{
+	height: 18%;
+}
 }
 
 .myButton {
@@ -4251,6 +4261,24 @@ body.is-preload #intro .content {
 
 .kasClass {
 	margin: 40px;
+}
+
+
+@media only screen and (min-device-width: 375px) and (max-device-width: 1000px) {
+	.myButton {
+		top: 217px;
+	}
+}
+
+
+@media only screen and (min-device-width: 480px) and (max-device-width: 1000px) {
+	.smallHeader {
+		margin-bottom: 138px;
+	}
+
+	.todaysTech {
+		top: 0;
+	}
 }
 
 
