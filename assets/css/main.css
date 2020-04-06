@@ -2385,8 +2385,9 @@ input[type="password"],
 input[type="email"],
 select,
 textarea {
-	background-color: #ffffff;
-	border-color: rgba(86, 86, 86, 0.25);
+	background-color: #e3dddd;
+	border-color: rgb(5, 5, 5);
+	color: black;
 }
 
 input[type="text"]:focus,
@@ -2901,7 +2902,7 @@ article.special header h6:before {
 	section header p,
 	article header p {
 		font-size: 1em;
-		padding-top: 25px;
+		padding-top: 0px;
 	}
 
 	section header p br,
@@ -4091,6 +4092,15 @@ body.is-preload #intro .content {
 
 }
 
+.iconList	{
+	list-style-type: none;
+	max-width: 35em;
+		margin-left: auto;
+		margin-right: auto;
+		margin-top: 199px;
+		float: left;
+}
+
 .mainImage {
 	padding: 1em;
 	width: 100%;
@@ -4167,7 +4177,7 @@ body.is-preload #intro .content {
 
 	.mainLogoImage {
 		width: 59%;
-		height: 20%;
+		height: 15%;
 		position: relative;
 		top: 315px;
 		margin-left: 11%;
@@ -4219,14 +4229,14 @@ body.is-preload #intro .content {
 
 .mainLogoImage {
 	position: absolute;
-	left: 41px;
-	top: 12px;
+	left: 28px;
+	top: 38px;
 }
 
 
 @media only screen and (min-device-width: 375px) and (max-device-width: 1000px) {
 	.mainLogoImage {
-		height: 18%;
+		height: 15%;
 	}
 }
 
@@ -4272,9 +4282,7 @@ body.is-preload #intro .content {
 
 
 @media only screen and (min-device-width: 480px) and (max-device-width: 1000px) {
-	.smallHeader {
-		margin-bottom: 138px;
-	}
+
 
 	.todaysTech {
 		top: 0;
@@ -4288,11 +4296,17 @@ body.is-preload #intro .content {
 	color: #990700;
 	font-size: 16.0px;
 	line-height: 21.0px;
-
+	padding-top: 20px;
 }
 
 .resources {
 	padding-top: 5%;
+}
+
+@media only screen and (min-device-width: 1px) and (max-device-width: 1000px) {
+	.resources {
+		padding-top: 50%;
+	}
 }
 
 .cpra {
@@ -4302,55 +4316,274 @@ body.is-preload #intro .content {
 	font-size: 19.0px;
 	line-height: 21.0px;
 	letter-spacing: 1.00px;
+	padding-top: 20px;
 }
-.quick	{
+
+.quick {
 	font-family: "Calibri", sans-serif;
 	font-weight: 700;
 	color: #249827;
 	font-size: 19.0px;
 	line-height: 21.0px;
 	letter-spacing: 1.00px;
+	padding-top: 20px;
 }
 
-.tSheet	{
+.tSheet {
 	font-family: "Calibri", sans-serif;
-font-weight: 700;
-color: #c00000;
-font-size: 19.0px;
-line-height: 21.0px;
-letter-spacing: 1.00px;
+	font-weight: 700;
+	color: #c00000;
+	font-size: 19.0px;
+	line-height: 21.0px;
+	letter-spacing: 1.00px;
+	padding-top: 20px;
 }
 
-.quickcloud	{
+.quickcloud {
 	font-family: "Calibri", sans-serif;
-font-weight: 700;
-color: #0000ff;
-font-size: 19.0px;
-line-height: 21.0px;
-letter-spacing: 1.00px;
+	font-weight: 700;
+	color: #0000ff;
+	font-size: 19.0px;
+	line-height: 21.0px;
+	letter-spacing: 1.00px;
+	padding-top: 20px;
 }
 
-.cpbIconclass	{
+.cpbIconclass {
 	float: left;
 	margin-top: -43px;
 }
 
-.cpra2Icon	{
+
+@media only screen and (min-device-width: 1px) and (max-device-width: 1000px) {
+	.cpbIconclass {
+		float: none;
+		padding-top: 53px;
+	}
+}
+
+.cpra2Icon {
 	float: left;
 	margin-top: 22px;
 }
 
-.quickBooksIcon	{
+@media only screen and (min-device-width: 1px) and (max-device-width: 1000px) {
+	.cpra2Icon {
+		float: none;
+		padding-top: 10px;
+	}
+}
+
+.quickBooksIcon {
 	float: left;
 	margin-top: 6px;
 	width: 170px;
 }
 
-.quickcloudIcon	{
+@media only screen and (min-device-width: 1px) and (max-device-width: 1000px) {
+	.quickBooksIcon {
+		float: none;
+		padding-top: 10px;
+	}
+}
+
+.quickcloudIcon {
 	float: left;
 	margin-top: 6px;
 	width: 170px;
 }
+
+@media only screen and (min-device-width: 1px) and (max-device-width: 1000px) {
+	.quickcloudIcon {
+		float: none;
+		padding-top: 10px;
+	}
+}
+
+.cpbservices {
+	width: 25%;
+	height: 20%;
+	margin-top: 25px;
+}
+
+@media only screen and (min-device-width: 1px) and (max-device-width: 1000px) {
+	.cpbservices {
+		width: 65%;
+		height: 20%;
+		margin-top: 190px;
+		margin-bottom: -189px;
+	}
+}
+
+
+
+
+.pcpservices {
+	width: 17%;
+	height: 20%;
+	margin-top: 8px;
+}
+
+
+@media only screen and (min-device-width: 1px) and (max-device-width: 1000px) {
+	.pcpservices {
+		width: 33%;
+		height: 20%;
+		margin-top: 204px;
+	}
+}
+
+@media only screen and (min-device-width: 1px) and (max-device-width: 1000px) {
+	.services {
+		margin-top: 130px;
+
+	}
+
+	.qdpservices {
+		width: 33%;
+		height: 20%;
+		margin-top: 0px;
+	}
+}
+
+.kassLetters {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 30%;
+}
+
+@media only screen and (min-device-width: 1px) and (max-device-width: 1000px) {
+	.kassLetters {
+
+		padding-top: 71px;
+	}
+}
+
+.certified {
+	font-family: "Calibri", sans-serif;
+	color: #0000ff;
+	text-decoration: underline;
+	font-size: 19.0px;
+	line-height: 21.0px;
+	letter-spacing: -1.00px;
+}
+
+.lawdepoticon {
+	padding-bottom: 16px;
+}
+
+.qdpservices {
+	width: 143px;
+}
+
+
+
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+	.mainHeader {
+		text-align: center;
+		width: 74%;
+		height: 5%;
+		font-size: 15px;
+		font-weight: bolder;
+		color: black;
+		margin-top: 75px;
+		margin-left: 27px;
+		position: absolute;
+		z-index: 1;
+		top: 146px;
+		background-color: white;
+
+	}
+
+	ul.icons.major {
+		max-width: 35em;
+		margin-left: auto;
+		margin-right: auto;
+		margin-top: 199px
+	}
+
+	.smallHeader {
+		margin-top: -52px;
+	}
+
+	.spotlight {
+		margin: -10em 0;
+	}
+
+	.mainLogoImage {
+		height: 17%;
+		width: 300px;
+		left: 135px;
+	}
+}
+
+
+
+@media only screen and (min-device-width: 375px) and (max-device-width: 667px) {
+	.katesNameClass {
+		margin-top: 195px;
+	}
+}
+
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+	.katesNameClass {
+		margin-top: 100px;
+	}
+
+	.smallHeader {
+		margin-top: -18px;
+	}
+
+}
+
+
+
+
+@media only screen and (min-device-width: 360px) and (max-device-width: 740px) {
+
+	ul.icons.major {
+		top: 164px;
+	}
+
+	.kassLetters {
+		width: 60%;
+		padding-top: 0px;
+	}
+}
+
+
+.iconColumn {
+	float: left;
+	width: 33.33%;
+	padding: 5px;
+	list-style-type: none;
+  }
+  
+  /* Clear floats after image containers */
+  .iconRow::after {
+	content: "";
+	clear: both;
+	display: table;
+  }
+
+
+
+  
+
+@media only screen and (min-device-width: 0px) and (max-device-width: 450px) {
+.iconColumn	{
+	float: none;
+
+	display: block;
+	
+	width: 100%;
+}
+
+}
+
 
 
 
