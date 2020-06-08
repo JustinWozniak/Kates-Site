@@ -303,7 +303,7 @@ i {
 
 p {
   margin: 0 0 2em 0;
-  font-size: 1.25em;
+  font-size: 1.5rem;
 }
 
 h1,
@@ -362,7 +362,7 @@ h1 {
   h1 {
     font-size: 2em;
     line-height: 1.3;
-    margin: 0 0 1rem 0;
+    margin: 42px 0 1rem 0;
   }
 }
 
@@ -429,7 +429,7 @@ blockquote {
   border-left: solid 4px;
   font-style: italic;
   margin: 0 0 2em 0;
-  padding: 0.5em 0 0.5em 2em;
+  font-size: 1.5rem;
 }
 
 code {
@@ -2693,6 +2693,7 @@ ul.icons.major li .icon:before {
   height: 3.5em;
   line-height: 3.5em;
   font-size: 2.25rem;
+  list-style: none;
 }
 
 ul.icons.style2 li:before {
@@ -2852,8 +2853,8 @@ article.special header h6:before {
 @media screen and (max-width: 736px) {
   section header p,
   article header p {
-    font-size: 1em;
     padding-top: 0px;
+    font-size: 1.5rem;
   }
 
   section header p br,
@@ -3098,7 +3099,7 @@ table.alt tbody tr td {
 .wrapper > .inner {
   width: 72em;
   max-width: 100%;
-  margin: 0 auto;
+  margin: 41px auto;
 }
 
 @media screen and (max-width: 1680px) {
@@ -4049,32 +4050,34 @@ body.is-preload #intro .content {
   /* border: 3px solid black; */
   width: 62%;
   position: absolute;
-  top: 0;
-  left: 24%;
-  font-size: 2.2rem;
+  top: 0px;
+  left: 27%;
+  font-size: 1.5rem;
   font-weight: 700;
   color: black;
   z-index: 1;
+  line-height: initial;
 }
 .mainHeader2 {
   text-align: center;
-    font-family: 'Times New Roman', Times, serif;
-    /* border: 3px solid black; */
-    position: absolute;
-    top: 44px;
-    left: 33%;
-    font-size: 2.5rem;
-    font-weight: bolder;
-    color: black;
-    width: 40%;
-    z-index: 1;
+  font-family: sans-serif;
+  /* border: 3px solid black; */
+  position: absolute;
+  top: 64px;
+  left: 37%;
+  font-size: 1.5rem;
+  font-weight: bolder;
+  color: black;
+  width: 40%;
+  z-index: 1;
+  line-height: initial;
 }
 .mainHeader3 {
   text-align: center;
-  font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif ;
+  font-family: -webkit-pictograph;
   position: absolute;
-  top: 102px;
-  left: 23%;
+  top: 93px;
+  left: 28%;
   /* border: 3px solid black; */
   font-size: 1.7em;
   font-weight: normal;
@@ -4097,9 +4100,11 @@ body.is-preload #intro .content {
   width: 75px;
   height: 75px;
   text-decoration: none;
+  margin: 17%;
 }
 
 .cpbIcon {
+  margin: 17%;
   width: 179px;
   height: 82px;
 }
@@ -4120,7 +4125,7 @@ body.is-preload #intro .content {
 @media only screen and (min-device-width: 0px) and (max-device-width: 1000px) {
   .headerClass {
     position: absolute;
-    top: 270px;
+    top: 39%;
     width: 100%;
     height: 72px;
   }
@@ -4171,7 +4176,7 @@ body.is-preload #intro .content {
 
   .smallHeader {
     top: 138px;
-    margin-bottom: -45px;
+    margin-bottom: 35px;
     position: relative;
   }
 
@@ -4190,7 +4195,6 @@ body.is-preload #intro .content {
   left: 28px;
   top: 15px;
 }
-
 
 .myButton {
   background-color: #5b5b5b;
@@ -4245,7 +4249,7 @@ body.is-preload #intro .content {
 }
 
 .resources {
-  padding-top: 10%;
+  padding-top: 0%;
 }
 
 @media only screen and (min-device-width: 1px) and (max-device-width: 1000px) {
@@ -4473,7 +4477,7 @@ body.is-preload #intro .content {
 
 @media only screen and (min-device-width: 360px) and (max-device-width: 740px) {
   ul.icons.major {
-    top: 164px;
+    top: 200px;
   }
 
   .kassLetters {
@@ -4510,6 +4514,7 @@ body.is-preload #intro .content {
   .smallImage {
     width: 135px;
     height: 90px;
+    margin: 17%;
   }
 }
 
@@ -4631,6 +4636,7 @@ body.is-preload #intro .content {
 @media only screen and (min-width: 360px) and (max-width: 767px) {
   .katesNameClass {
     margin-top: -18px;
+    font-size: 1.8rem;
   }
   .services {
     margin-top: -13px;
@@ -4638,12 +4644,13 @@ body.is-preload #intro .content {
 
   .smallHeader {
     top: 210px;
+    font-size: 1.5rem;
   }
   .image img {
     padding-top: 156px;
   }
   .resources {
-    padding-top: 65%;
+    padding-top: 41%;
   }
   .spotlight:first-of-type {
     margin-top: -160px;
@@ -4656,155 +4663,29 @@ body.is-preload #intro .content {
     margin-bottom: -131px;
   }
 
-.mainHeader1  {
-  top: 18%;
-  font-size: 1rem;
-  width: 99%;
-  left: 0;
-}
-.mainHeader2  {
-  top: 22%;
-  font-size: 1em;
-  width: 100%;
-  left: 0;
-}
-.mainHeader3  {
-  top: 25%;
-  font-size: 1em;
-  width: 100%;
-  left: 0;
-}
-}
-
-
-
-}
-
-@media only screen and (min-width: 1px) and (max-width: 1000px) {
-  .afiliations {
-    padding-left: 0%;
+  .mainHeader1 {
+    top: 18%;
+    font-size: 1.2rem;
+    width: 99%;
+    left: 0;
+    padding-bottom: 5px;
   }
-}
-@media only screen and (min-width: 1001px) and (max-width: 3000px) {
-  .afiliations {
-    padding-left: 22%;
+  .mainHeader2 {
+    top: 26%;
+    font-size: 1.4rem;
+    width: 100%;
+    left: 0;
   }
-  .ipbkc {
-    padding-left: 204px;
-  }
-  .cpra {
-    padding-left: 160px;
-  }
-  .quick {
-    padding-left: 160px;
-  }
-  .tSheet {
-    padding-left: 160px;
-  }
-  .quickcloud {
-    padding-left: 200px;
-  }
-  .katesNameClass2 {
-    padding-top: 79px;
+  .mainHeader3 {
+    top: 31%;
+    font-size: 1.2rem;
+    width: 100%;
+    left: 0;
   }
 }
 
-@import url(https://fonts.googleapis.com/css?family=Roboto:300);
-
-.ripple-wrap {
-  display: none;
-  overflow: hidden;
-  position: fixed;
-  font-size: 0;
-  z-index: 1000;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-}
-@-webkit-keyframes RIPPLER {
-  0% {
-    border-width: 0;
-  }
-  40% {
-    height: 0;
-    width: 0;
-    border-width: 1500px;
-    margin-top: -1500px;
-    margin-left: -1500px;
-    border-color: purple;
-  }
-
-  41% {
-    height: 0;
-    width: 0;
-    border-width: 1500px;
-    margin-top: -1500px;
-    margin-left: -1500px;
-    border-color: purple;
-  }
-  100% {
-    border-width: 10px;
-    height: 2px;
-    width: 2px;
-    margin-top: -2500px;
-    margin-left: -2500px;
-    border-color: purple;
-  }
-}
-@keyframes RIPPLER {
-  0% {
-    border-width: 0;
-  }
-  40% {
-    height: 0;
-    width: 0;
-    border-width: 1500px;
-    margin-top: -1500px;
-    margin-left: -1500px;
-    border-color: purple;
-  }
-  41% {
-    height: 0;
-    width: 0;
-    border-width: 1500px;
-    margin-top: -1500px;
-    margin-left: -1500px;
-    border-color: purple;
-  }
-  100% {
-    /* border-width: 1500px;
-    height: 2000px;
-    width: 2000px;
-    margin-top: -2500px;
-    margin-left:-2500px;
-    border-color: grey; */
-  }
-}
-.ripple {
-  display: block;
-  height: 0;
-  width: 0;
-  border-width: 0px;
-  border-style: solid;
-  border-color: purple;
-  border-radius: 100%;
-  position: absolute;
-  top: 300px;
-  left: 300px;
-  -webkit-animation: none;
-  animation: none;
-}
-.ripple-wrap.goripple {
-  display: block;
-}
-.ripple-wrap.goripple .ripple {
-  -webkit-animation-name: RIPPLER;
-  -webkit-animation-duration: 1.5s;
-  -webkit-animation-fill-mode: forwards;
-  animation-name: RIPPLER;
-  animation-duration: 1.5s;
-  animation-fill-mode: forwards;
+.myList {
+  list-style: none;
 }
 
 /* 
