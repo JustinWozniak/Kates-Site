@@ -2718,9 +2718,8 @@ ul.icons.style2.major li:before {
 @media screen and (max-width: 1280px) {
   ul.icons.major {
     margin: 0 0 2em 0;
-    
-    margin-top: -37px;
 
+    margin-top: -37px;
   }
 
   ul.icons.major li {
@@ -2974,7 +2973,7 @@ table.alt tbody tr td {
 
 .spotlight .image img {
   width: 100%;
-  margin-top: 73px;
+  margin-top: 25%;
   padding-bottom: 48px;
 }
 
@@ -4036,17 +4035,55 @@ body.is-preload #intro .content {
   text-align: center;
   width: 75%;
   height: 139%;
-  margin: -180px;
-  margin-left: 240px;
-  margin-bottom: -165px;
+  border: 3px solid black;
   font-size: 1.7em;
   font-weight: bolder;
   color: black;
   z-index: 1;
+  position: relative;
+}
+
+.mainHeader1 {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  /* border: 3px solid black; */
+  width: 62%;
+  position: absolute;
+  top: 0;
+  left: 24%;
+  font-size: 2.2rem;
+  font-weight: 700;
+  color: black;
+  z-index: 1;
+}
+.mainHeader2 {
+  text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    /* border: 3px solid black; */
+    position: absolute;
+    top: 44px;
+    left: 33%;
+    font-size: 2.5rem;
+    font-weight: bolder;
+    color: black;
+    width: 40%;
+    z-index: 1;
+}
+.mainHeader3 {
+  text-align: center;
+  font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif ;
+  position: absolute;
+  top: 102px;
+  left: 23%;
+  /* border: 3px solid black; */
+  font-size: 1.7em;
+  font-weight: normal;
+  color: black;
+  z-index: 1;
+  width: 58%;
 }
 
 .smallHeader {
-  margin-top: 95px;
   font-size: 1.25em;
 }
 
@@ -4084,7 +4121,7 @@ body.is-preload #intro .content {
   .headerClass {
     position: absolute;
     top: 270px;
-    width: 108%;
+    width: 100%;
     height: 72px;
   }
 
@@ -4151,14 +4188,9 @@ body.is-preload #intro .content {
 .mainLogoImage {
   position: absolute;
   left: 28px;
-  top: 38px;
+  top: 15px;
 }
 
-@media only screen and (min-device-width: 375px) and (max-device-width: 1000px) {
-  .mainLogoImage {
-    height: 15%;
-  }
-}
 
 .myButton {
   background-color: #5b5b5b;
@@ -4605,7 +4637,7 @@ body.is-preload #intro .content {
   }
 
   .smallHeader {
-    top: 144px;
+    top: 210px;
   }
   .image img {
     padding-top: 156px;
@@ -4623,6 +4655,29 @@ body.is-preload #intro .content {
     margin-top: 162px;
     margin-bottom: -131px;
   }
+
+.mainHeader1  {
+  top: 18%;
+  font-size: 1rem;
+  width: 99%;
+  left: 0;
+}
+.mainHeader2  {
+  top: 22%;
+  font-size: 1em;
+  width: 100%;
+  left: 0;
+}
+.mainHeader3  {
+  top: 25%;
+  font-size: 1em;
+  width: 100%;
+  left: 0;
+}
+}
+
+
+
 }
 
 @media only screen and (min-width: 1px) and (max-width: 1000px) {
