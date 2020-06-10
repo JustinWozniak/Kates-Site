@@ -303,7 +303,7 @@ i {
 
 p {
   margin: 0 0 2em 0;
-  font-size: 1.5rem;
+  /* font-size: 1.5rem; */
 }
 
 h1,
@@ -429,6 +429,7 @@ blockquote {
   border-left: solid 4px;
   font-style: italic;
   margin: 0 0 2em 0;
+  margin-top:98px;
   font-size: 1.5rem;
 }
 
@@ -2963,13 +2964,13 @@ table.alt tbody tr td {
   align-items: center;
   text-align: left;
   margin: 4em 0;
-  margin-top: -128px;
+  margin-top: -265px;
 }
 
 .spotlight .image {
   margin: 0 0 0 2em;
   width: 50%;
-  -ms-flex: 1;
+ 
 }
 
 .spotlight .image img {
@@ -4046,44 +4047,45 @@ body.is-preload #intro .content {
 
 .mainHeader1 {
   text-align: center;
-  font-family: Arial, Helvetica, sans-serif;
-  /* border: 3px solid black; */
-  width: 62%;
-  position: absolute;
-  top: 0px;
-  left: 27%;
-  font-size: 1.5rem;
-  font-weight: 700;
-  color: black;
-  z-index: 1;
-  line-height: initial;
+    font-family: Arial, Helvetica, sans-serif;
+    /* border: 3px solid black; */
+    width: 83%;
+    position: absolute;
+    top: -3px;
+    left: 18%;
+    font-size: 1.5rem;
+    font-weight: 900;
+    color: black;
+    z-index: 1;
+    line-height: initial;
 }
 .mainHeader2 {
   text-align: center;
   font-family: sans-serif;
   /* border: 3px solid black; */
   position: absolute;
-  top: 64px;
-  left: 37%;
-  font-size: 1.5rem;
-  font-weight: bolder;
+  top: 67px;
+  left: 36%;
+  font-size: 1.4rem;
+  font-weight: 700;
   color: black;
-  width: 40%;
+  width: 50%;
   z-index: 1;
   line-height: initial;
 }
 .mainHeader3 {
+
   text-align: center;
   font-family: -webkit-pictograph;
   position: absolute;
-  top: 93px;
-  left: 28%;
+  top: 88px;
+  left: 29%;
   /* border: 3px solid black; */
-  font-size: 1.7em;
+  font-size: 1.6em;
   font-weight: normal;
   color: black;
   z-index: 1;
-  width: 58%;
+  width: 71%;
 }
 
 .smallHeader {
@@ -4105,8 +4107,8 @@ body.is-preload #intro .content {
 
 .cpbIcon {
   margin: 17%;
-  width: 179px;
-  height: 82px;
+  width: 113px;
+  height: 55px;
 }
 
 .centreWellington {
@@ -4125,7 +4127,7 @@ body.is-preload #intro .content {
 @media only screen and (min-device-width: 0px) and (max-device-width: 1000px) {
   .headerClass {
     position: absolute;
-    top: 39%;
+    top: 44%;
     width: 100%;
     height: 72px;
   }
@@ -4153,6 +4155,7 @@ body.is-preload #intro .content {
     max-width: 100%;
     top: 137px;
     position: relative;
+    font-size: 1.5rem
   }
 
   .hidden {
@@ -4214,14 +4217,7 @@ body.is-preload #intro .content {
   right: 1em;
 }
 
-@media only screen and (min-device-width: 0px) and (max-device-width: 1000px) {
-  .myButton {
-    top: 277px;
-    left: 4px;
-    top: 270px;
-    position: relative;
-  }
-}
+
 
 .kasClass {
   margin: 40px;
@@ -4246,6 +4242,7 @@ body.is-preload #intro .content {
   font-size: 16px;
   line-height: 21px;
   padding-top: 20px;
+  padding-left: 16%;
 }
 
 .resources {
@@ -4266,6 +4263,7 @@ body.is-preload #intro .content {
   line-height: 21px;
   letter-spacing: 1px;
   padding-top: 20px;
+  padding-left: 16%;
 }
 
 .quick {
@@ -4276,6 +4274,7 @@ body.is-preload #intro .content {
   line-height: 21px;
   letter-spacing: 1px;
   padding-top: 20px;
+  padding-left: 16%;
 }
 
 .tSheet {
@@ -4286,6 +4285,7 @@ body.is-preload #intro .content {
   line-height: 21px;
   letter-spacing: 1px;
   padding-top: 20px;
+  padding-left: 16%;
 }
 
 .quickcloud {
@@ -4296,12 +4296,16 @@ body.is-preload #intro .content {
   line-height: 21px;
   letter-spacing: 1px;
   padding-top: 20px;
+  padding-left: 16%;
 }
 
 .cpbIconclass {
   float: left;
   margin-top: -13px;
-  width: 14%;
+  width: 18%;
+}
+.afiliations {
+  padding-left: 22%;
 }
 
 @media only screen and (min-device-width: 1px) and (max-device-width: 1000px) {
@@ -4613,14 +4617,12 @@ body.is-preload #intro .content {
   }
 
   .spotlight {
-    margin-top: -12em;
+    margin-top: -31%;
   }
   .katesNameClass {
     font-size: 3.5em;
   }
-  .katesInfoClass {
-    font-size: 1.25em;
-  }
+ 
 
   .kateImage {
     width: 379px;
@@ -4642,18 +4644,42 @@ body.is-preload #intro .content {
     margin-top: -13px;
   }
 
+  .ipbkc  {
+    padding-left: 0%;
+  }
+
+  .cpra {
+    padding-left: 0%;
+  }
+
+  .quick  {
+    padding-left: 0%;
+  }
+
+  .tSheet {
+    padding-left: 0%;
+  }
+
+  .quickcloud {
+    padding-left: 0%;
+  }
+
+  .smallImage {
+    margin-bottom: 23%;
+  }
+
   .smallHeader {
     top: 210px;
     font-size: 1.5rem;
   }
   .image img {
-    padding-top: 156px;
+    padding-top: 114%;
   }
   .resources {
     padding-top: 41%;
   }
   .spotlight:first-of-type {
-    margin-top: -160px;
+    margin-top: -544px;
   }
   .spotlight {
     margin: -8em 0;
@@ -4661,6 +4687,16 @@ body.is-preload #intro .content {
   .katesNameClass2 {
     margin-top: 162px;
     margin-bottom: -131px;
+  }
+
+  .afiliations {
+    padding-left: 0%;
+  }
+  .cpbIconclass {
+    width: 50%;
+  }
+  .quickBooksIcon {
+    width: 53%;
   }
 
   .mainHeader1 {
@@ -4687,6 +4723,85 @@ body.is-preload #intro .content {
 .myList {
   list-style: none;
 }
+
+.todaysTech {
+
+  font-size: 1.5rem
+}
+
+.katesInfoClass  {
+  font-size: 1.5rem;
+
+}
+.katesInfoClass1  {
+  font-size: 1.5rem;
+  padding-top: 13%;
+}
+
+.smallFont  {
+  font-size: 132%;
+}
+
+@media only (max-width: 812px) {
+  .smallFont  {
+    font-size: 132%;
+  }
+
+}
+.smallFont2  {
+  font-size: 132%;
+  margin-top: 25%;
+}
+
+.smallFont3  {
+  font-size: 132%;
+  margin-top: 25%;
+}
+
+
+.spotlightcontainer {
+  margin-top: -19%;
+}
+
+.spotlight1 {
+  width: 100%;
+  margin-bottom: 12%;
+}
+.spimage1 {
+  width: 47%;
+  float: left;
+  margin: 2%;
+}
+
+.spimage2 {
+  width: 47%;
+  float: right;
+  margin: 2%;
+}
+
+@media only screen and (max-width: 812px) {
+
+  .spotlightcontainer {
+    margin-top: -19%;
+  }
+  
+  .spotlight1 {
+    width: 100%;
+    margin-bottom: 12%;
+  }
+  .spimage1 {
+    width: 100%;
+  }
+  
+  .spimage2 {
+    width: 100%;
+    float: right;
+    margin: 2%;
+  }
+
+
+}
+
 
 /* 
 From The Brain Of Jusin Wozniak 2020 */
